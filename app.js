@@ -13,7 +13,7 @@ var pool = mysql.createPool({
   database : 'testdb'
 });
 app.use(bodyParser());
-server.listen(8000);
+server.listen(8080);
 
 
 app.use(express.static(__dirname + '/public')); // set the static files location /public/img will be /img for users
